@@ -4,7 +4,7 @@
 <html>
 <body>
 
-	<h1>Add a Car</h1>
+	<h1>Add a Vehicle</h1>
 
 	<form:form method="POST" modelAttribute="car">
 		<p>
