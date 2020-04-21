@@ -18,6 +18,4 @@ ADD configuration/context.xml /usr/local/tomcat/webapps/manager/META-INF/context
 
 ADD configuration/tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
 
-RUN sh /usr/local/tomcat/bin/startup.sh
-
 EXPOSE 8080
