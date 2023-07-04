@@ -1,2 +1,5 @@
-FROM jboss/wildfly
-ADD target/springwebapp.war  /opt/jboss/wildfly/standalone/deployments/
+FROM java.11
+MAINTAINER Kuchi Govardhan Chowdary
+EXPOSE 8080
+ADD target/springwebapp.jar springwebapp.jar
+ENTRYPOINT ["java","-jar","/springwebapp"]
