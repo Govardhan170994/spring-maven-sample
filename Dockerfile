@@ -1,4 +1,4 @@
-FROM java.11
+FROM java11
 MAINTAINER Kuchi Govardhan Chowdary
 EXPOSE 8080
 ADD target/springwebapp.jar springwebapp.jar
